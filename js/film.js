@@ -52,10 +52,10 @@ window.onload = function(){
     var location = document.querySelectorAll('.bg button');
     console.log(location);
     location[0].addEventListener('click',function(){
-        window.location = 'https://babysit1.github.io/gcb3'
+        window.location = 'https://babysit1.github.io/yp'
     })   
     location[1].addEventListener('click',function(){
-        window.location = 'cinema.html'
+        window.location = 'https://babysit1.github.io/yc'
     })   
     document.querySelector('.close').addEventListener('click',function(){
         document.querySelector('.info').remove();
