@@ -1,0 +1,72 @@
+.swiper-pagination-bullet-active{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    left: 0px;
+}
+.swiper-pagination{
+    text-align: center;
+}
+.swiper-slide img{
+    height: 250px;
+}
+ul.top{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.top span{
+    font-size: 16px;
+}
+.logo{
+    border-radius: 0;
+}
+.logo img{
+    width: 100%;
+}
+.logolist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.logolist>div{
+    width: 25%;
+    margin: 5px 0;
+}
+.imgflex{
+    display: flex;
+    padding: 10px;
+    height: 200px;
+}
+.imgflex>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgflex>div{
+    height: 200px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.imgflex>div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.imgflex>div>div{
+    height: 100px;
+    padding:3px;
+    box-sizing: border-box;
+}
+.logo{
+    background: transparent;
+}
+.logolist span{
+    font-size: 35px;
+    color: rgb(103, 177, 247);
+}

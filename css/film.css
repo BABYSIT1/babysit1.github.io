@@ -1,0 +1,122 @@
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+}
+.toggle{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border-radius: 20px;
+    padding: 2px;
+}
+header ul{
+    width: 100%;
+    justify-content: space-between;
+}
+.toggle .bg button{
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 3px 12px;
+}
+.toggle .bg button.active{
+    background-color: rgb(244,246,247);
+    color: rgb(80, 145, 231);
+    font-weight: bold;
+    position: relative;
+}
+.container{
+    padding: 10px 15px;
+    margin-bottom: 80px;
+}
+.title{
+    display: flex;
+}
+.title h3{
+    font-weight: normal;
+    margin: 10px;
+    font-size: 16px;
+}
+.title h3.active{
+    font-weight: bold;
+}
+.movie{
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 150px;
+    margin-right: 10px;
+}
+.img img{
+    height: 100%;
+    border-radius:10px;
+}
+.moviecontent{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+.moviecontent p{
+    color: #999;
+    font-size: 14px;
+}
+.moviecontent p.title{
+    color: black;
+    font-size: 16px;
+}
+.score{
+    color: orange;
+}
+.btn button{
+    border-radius: 15px;
+    border: 1px solid rgb(6, 70, 153);
+    color:rgb(6, 70, 153);
+    background-color: white;
+}
+.buy{
+    border-radius: 15px;
+    border: 1px solid rgb(6, 70, 153);
+    padding: 5px 15px;
+    color:white;
+    background-color: rgb(6, 70, 153);
+}
+
+.cinema{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 16px;
+    margin: 10px;
+}
+.location1{
+    font-size: 14px;
+}
+.cinema p{
+    margin: 5px 0;
+}
+.cinemainfo{
+    width: 80%;
+}
+.cinema .type p{
+    font-size: 14px;
+    margin: 0 2px;
+    padding:1px 3px;
+    color: rgb(15, 78, 155);
+    border: 1px solid rgb(15, 78, 155);
+    border-radius: 3px;
+}
+.cinema .btn .type{
+    display: flex;
+}
