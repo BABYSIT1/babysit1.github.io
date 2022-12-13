@@ -52,7 +52,7 @@ window.onload = function(){
     var location = document.querySelectorAll('.bg button');
     console.log(location);
     location[0].addEventListener('click',function(){
-        window.location = 'film.html'
+        window.location = 'https://babysit1.github.io/gcb3'
     })   
     location[1].addEventListener('click',function(){
         window.location = 'cinema.html'
